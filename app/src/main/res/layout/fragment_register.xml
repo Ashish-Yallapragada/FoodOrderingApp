@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/email_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="90dp"
+        android:autofillHints="@string/email"
+        android:layout_marginStart="90dp" />
+
+    <EditText
+        android:id="@+id/pass_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="90dp"
+        android:inputType="textPassword"
+        android:autofillHints="@string/password" />
+
+    <EditText
+        android:id="@+id/cpass_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/confirm_password"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="300dp"
+        android:inputType="textPassword"
+        android:autofillHints="@string/confirm_password" />
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="400dp"
+        />
+</FrameLayout>
